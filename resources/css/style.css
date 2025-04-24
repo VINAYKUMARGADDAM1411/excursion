@@ -1,0 +1,79 @@
+/* Reset some default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  background-color: #ffffff;
+  color: #333;
+  line-height: 1.6;
+  text-align: center;
+  padding: 20px;
+}
+
+/* Header styles */
+header {
+  margin-top: 50px;
+}
+
+header h1 {
+  font-size: 3rem;
+  color: #000;
+  margin-bottom: 10px;
+}
+
+header a {
+  font-size: 1.2rem;
+  color: #0088cc;
+  text-decoration: none;
+}
+
+header a:hover {
+  text-decoration: underline;
+}
+
+/* Video section */
+video {
+  width: 100%;
+  max-width: 900px;
+  height: auto;
+  margin: 50px auto;
+  display: block;
+  border-radius: 8px;
+}
+
+/* Text section */
+section h2 {
+  font-size: 2rem;
+  margin: 40px 0 10px;
+  color: #222;
+}
+
+section p {
+  font-size: 1.2rem;
+  margin: 10px 0 40px;
+  color: #555;
+  padding: 0 20px;
+}
+
+/* Image styling */
+section img {
+  max-width: 100%;
+  height: auto;
+  margin: 20px 0;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Footer */
+footer {
+  margin-top: 60px;
+  padding: 20px 0;
+  border-top: 1px solid #ddd;
+  color: #888;
+  font-size: 0.9rem;
+}
